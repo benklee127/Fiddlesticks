@@ -17,6 +17,6 @@
     addStyleString(cssText);
     var video;
     video = document.getElementsByTagName("video")[0];
-    video.toggle('hflip');
+    video.hflip;
   //  video.classList.toggle('hflip');
 })();
