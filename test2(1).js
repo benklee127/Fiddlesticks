@@ -13,9 +13,10 @@
       transform: scale(-1, 1) !important;\
       filter: FlipH !important;\
     }";
-    
+
     addStyleString(cssText);
-   // var video;
-   // video = document.getElementsByTagName("video")[0];
-   // video.classList.toggle('hflip');
+    var video;
+    video = document.getElementsByTagName("video")[0];
+    video.toggle('hflip');
+  //  video.classList.toggle('hflip');
 })();
