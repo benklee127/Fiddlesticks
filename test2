@@ -1,0 +1,5 @@
+javascript:(function(){
+    var s=document.createElement('script');
+    s.type='text/javascript';
+    s.src='https://rawgit.com/amacfie/MirrorYouTubeVideos/master/Mirror_HTML5_Video.js';
+    document.body.appendChild(s);})();
